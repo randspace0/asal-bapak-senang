@@ -14,6 +14,17 @@ Reviews the target for correctness bugs, security issues, edge cases, missing te
 
 Requires the [GitHub CLI](https://cli.github.com/) (`gh`), authenticated.
 
+### `/abs-smoke-test <PR URL | number | branch>`
+
+Smoke tests a PR on a connected Android device.
+
+- Derives a checklist from the PR and shows it first.
+- Builds, installs and exercises the app; captures screenshots, a screen recording and crash logs.
+- Drafts a PR comment with PASS/FAIL and the media. Nothing is pushed or posted until you confirm.
+- On confirm, media goes to the `abs-smoke-media` orphan branch and one comment is posted.
+
+Requires `adb`, the `android-cli` skill, `devlock`, and optionally `ffmpeg` (for GIFs).
+
 ## Install
 
 ```

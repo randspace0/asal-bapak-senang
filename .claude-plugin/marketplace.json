@@ -1,0 +1,11 @@
+{
+  "name": "asal-bapak-senang",
+  "owner": { "name": "randspace0" },
+  "plugins": [
+    {
+      "name": "asal-bapak-senang",
+      "source": "./",
+      "description": "Asal Bapak Senang (ABS): ship work the boss is happy with. Review, report, and demo helpers."
+    }
+  ]
+}

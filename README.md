@@ -17,13 +17,7 @@ Requires the [GitHub CLI](https://cli.github.com/) (`gh`), authenticated.
 ## Install
 
 ```
-/plugin marketplace add randspace0/asal-bapak-senang
-/plugin install asal-bapak-senang
-```
-
-Or try locally:
-
-```
+git clone https://github.com/randspace0/asal-bapak-senang
 claude --plugin-dir ./asal-bapak-senang
 ```
 

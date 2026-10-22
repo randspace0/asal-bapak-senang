@@ -1,5 +1,7 @@
 # Asal Bapak Senang
 
+![Asal Bapak Senang](https://i.ytimg.com/vi/9f4Hcor_Ins/oardefault.jpg?sqp=-oaymwEYCJUDENAFSFqQAgHyq4qpAwcIARUAAIhC&rs=AOn4CLAZdOD-BXobFFBbqGPc9mKIQ2ewSw&usqp=CCk)
+
 Claude Code plugin. *Asal Bapak Senang* ("as long as the boss is happy"): review PRs so the boss only sees work that passes.
 
 ## Commands

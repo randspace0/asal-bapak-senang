@@ -19,8 +19,10 @@ Requires the [GitHub CLI](https://cli.github.com/) (`gh`), authenticated.
 ## Install
 
 ```
-git clone https://github.com/randspace0/asal-bapak-senang
-claude --plugin-dir ./asal-bapak-senang
+/plugin marketplace add randspace0/asal-bapak-senang
+/plugin install asal-bapak-senang --marketplace randspace0/asal-bapak-senang
 ```
 
 Then run `/asal-bapak-senang:abs-review <target>`.
+
+Or try locally without installing: `claude --plugin-dir ./asal-bapak-senang`.
